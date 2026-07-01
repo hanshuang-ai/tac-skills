@@ -1,0 +1,12 @@
+name: tac-maestro-run
+version: 1.0.0
+description: TAC skill package for tac-maestro-run
+author: lcy
+license: UNLICENSED
+targets:
+- claude
+dependencies:
+  apm: []
+  mcp: []
+includes: auto
+scripts: {}

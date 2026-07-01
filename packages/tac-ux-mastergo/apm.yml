@@ -1,0 +1,12 @@
+name: tac-ux-mastergo
+version: 1.0.0
+description: TAC skill package for tac-ux-mastergo
+author: lcy
+license: UNLICENSED
+targets:
+- claude
+dependencies:
+  apm: []
+  mcp: []
+includes: auto
+scripts: {}

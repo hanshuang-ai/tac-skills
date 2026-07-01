@@ -1,0 +1,12 @@
+name: tac-governance-constitution
+version: 1.0.0
+description: TAC skill package for tac-governance-constitution
+author: lcy
+license: UNLICENSED
+targets:
+- claude
+dependencies:
+  apm: []
+  mcp: []
+includes: auto
+scripts: {}

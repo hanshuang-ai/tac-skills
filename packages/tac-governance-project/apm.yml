@@ -1,0 +1,12 @@
+name: tac-governance-project
+version: 1.0.0
+description: TAC skill package for tac-governance-project
+author: lcy
+license: UNLICENSED
+targets:
+- claude
+dependencies:
+  apm: []
+  mcp: []
+includes: auto
+scripts: {}

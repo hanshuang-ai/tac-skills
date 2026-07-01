@@ -1,0 +1,12 @@
+name: tac-testcase-plan
+version: 1.0.0
+description: TAC skill package for tac-testcase-plan
+author: lcy
+license: UNLICENSED
+targets:
+- claude
+dependencies:
+  apm: []
+  mcp: []
+includes: auto
+scripts: {}

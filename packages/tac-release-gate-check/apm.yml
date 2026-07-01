@@ -1,0 +1,12 @@
+name: tac-release-gate-check
+version: 1.0.0
+description: TAC skill package for tac-release-gate-check
+author: lcy
+license: UNLICENSED
+targets:
+- claude
+dependencies:
+  apm: []
+  mcp: []
+includes: auto
+scripts: {}

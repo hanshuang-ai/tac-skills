@@ -1,0 +1,12 @@
+name: tac-dep-base
+version: 1.0.0
+description: Demo shared base skill for dependency testing
+author: lcy
+license: UNLICENSED
+targets:
+- claude
+dependencies:
+  apm: []
+  mcp: []
+includes: auto
+scripts: {}

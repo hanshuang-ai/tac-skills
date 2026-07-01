@@ -1,0 +1,47 @@
+{
+  "name": "style_standardization_and_text_color_context_contract",
+  "rawDslPath": "tac-skills/tac-ui-mastergo-test/references/style_standardization_raw_dsl.json",
+  "promptPath": "tac-skills/tac-ui-mastergo/prompts/layout_android_xml.md",
+  "requiredTextStyles": [
+    {
+      "name": "WTTextStyleBody2R",
+      "styleRef": "@style/WTTextStyleBody2R",
+      "family": "WTTextStyleBody2",
+      "variant": "R",
+      "weight": "normal"
+    },
+    {
+      "name": "WTTextStyleCaption1R",
+      "styleRef": "@style/WTTextStyleCaption1R",
+      "family": "WTTextStyleCaption1",
+      "variant": "R",
+      "weight": "normal"
+    }
+  ],
+  "expectedTextNodes": [
+    {
+      "nodeId": "22:45783/63:27056",
+      "styleRef": "@style/WTTextStyleBody2R",
+      "styleFamily": "WTTextStyleBody2",
+      "styleVariant": "R",
+      "ownershipKind": "direct_text",
+      "colorValue": "#000000",
+      "colorToken": "wt_state_black_high"
+    },
+    {
+      "nodeId": "22:42839/63:27032",
+      "styleRef": "@style/WTTextStyleCaption1R",
+      "styleFamily": "WTTextStyleCaption1",
+      "styleVariant": "R",
+      "ownershipKind": "direct_text",
+      "colorValue": "#000000",
+      "colorToken": "wt_state_black_high"
+    }
+  ],
+  "requiredPromptSnippets": [
+    "Rule 22A: Text Color Context Conflict Guard",
+    "[UNRESOLVED: text color context conflict]",
+    "preserve the existing explicit text/icon color",
+    "This guard only handles contrast/context conflicts"
+  ]
+}

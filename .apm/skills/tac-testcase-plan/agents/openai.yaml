@@ -1,0 +1,7 @@
+interface:
+  display_name: "测试用例计划书"
+  short_description: "查找项目输入并生成可交接的测试计划"
+  default_prompt: "Use $tac-testcase-plan to find reliable project inputs and draft a module-based self-test case planning document."
+
+policy:
+  allow_implicit_invocation: true

@@ -4,12 +4,9 @@ description: APM project for apm
 author: lcy
 # Which agent platforms to deploy to.
 # Resolution order: --target flag > this field > auto-detect from filesystem.
-# Accepted values: vscode, agents, copilot, claude, cursor, opencode, codex,
-# gemini, antigravity, windsurf, kiro, agent-skills, all
+# Accepted values: claude, codex, copilot, cursor, gemini, kiro, opencode, windsurf
 targets:
 - claude
-- codex
-- vscode
 dependencies:
   apm: []
   mcp: []

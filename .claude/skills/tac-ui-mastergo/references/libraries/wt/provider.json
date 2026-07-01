@@ -1,0 +1,29 @@
+{
+  "libraryId": "wt",
+  "displayName": "WT Widget Library",
+  "aarDependency": {
+    "group": "com.autopai.support",
+    "artifact": "widget",
+    "version": "WT2.5_TINNOVE_Design-2.5.0.hd"
+  },
+  "defaultPackage": "wtcl.lib.widget",
+  "styleableFilter": {
+    "mode": "prefix",
+    "prefixes": ["WT", "Wt"],
+    "excludeSuffixes": ["Style", "DefaultAdapter", "Adapter"]
+  },
+  "textStylePatterns": [
+    "^(WTTextStyle[A-Za-z0-9]+?)([RB])?$"
+  ],
+  "textStylePrefixes": ["WTTextStyle"],
+  "preferredTextAttrs": ["wtTextStyle", "wtDefaultTextStyle"],
+  "preferredColorAttrs": [
+    "wtTextColor",
+    "android:textColor",
+    "wtDataTextColor",
+    "wtSubTextColor",
+    "wtItemTextColor"
+  ],
+  "rulesFile": "../../widget_semantic_rules.json",
+  "snapshotFile": "widget_registry.snapshot.json"
+}

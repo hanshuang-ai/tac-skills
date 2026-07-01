@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "activeLibrary": "caui",
+  "libraries": {
+    "wt": {
+      "displayName": "WT Widget Library",
+      "providerPath": "libraries/wt/provider.json"
+    },
+    "caui": {
+      "displayName": "CAUI Component Library",
+      "providerPath": "libraries/caui/provider.json"
+    }
+  }
+}

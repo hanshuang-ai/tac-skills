@@ -1,0 +1,531 @@
+{
+  "widget_overrides": {
+    "WTButton": {
+      "className": "wtcl.lib.widget.WTButton",
+      "aliases": [
+        "WTButton",
+        "按钮",
+        "contained button",
+        "outlined button",
+        "icon button"
+      ],
+      "variantAttr": "wtBtnType",
+      "variantAliases": {
+        "containedBtn_default": [
+          "containedbtndefault",
+          "contained button default"
+        ],
+        "containedBtn_small": [
+          "containedbtnsmall",
+          "contained button small"
+        ],
+        "containedBtn_circular_big": [
+          "containedbtncircular",
+          "containedbtncircularbig",
+          "圆形按钮"
+        ],
+        "containedBtn_circular_small": [
+          "containedbtncircularsmall"
+        ],
+        "outlinedBtn_default": [
+          "outlinedbtndefault",
+          "outlined button default"
+        ],
+        "outlinedBtn_small": [
+          "outlinedbtnsmall",
+          "outlined button small"
+        ],
+        "outlinedBtn_circular_big": [
+          "outlinedbtncircular",
+          "outlinedbtncircularbig"
+        ],
+        "outlinedBtn_circular_small": [
+          "outlinedbtncircularsmall"
+        ],
+        "iconBtn_big": [
+          "iconbtnbig",
+          "icon button big"
+        ],
+        "iconBtn_small": [
+          "iconbtnsmall",
+          "icon button small"
+        ],
+        "textBtn_big": [
+          "textbtnbig",
+          "text button big"
+        ],
+        "textBtn_small": [
+          "textbtnsmall",
+          "text button small"
+        ],
+        "toggleBtn_default": [
+          "togglebtndefault"
+        ],
+        "toggleBtn_small": [
+          "togglebtnsmall"
+        ]
+      },
+      "variantStyleMap": {
+        "containedBtn_default": [
+          "WTBtnContainedBtnDefaultStyle"
+        ],
+        "containedBtn_small": [
+          "WTBtnContainedBtnSmallStyle"
+        ],
+        "containedBtn_circular_big": [
+          "WTBtnContainedBtnCircularDefaultStyle"
+        ],
+        "containedBtn_circular_small": [
+          "WTBtnContainedBtnCircularSmallStyle"
+        ],
+        "outlinedBtn_default": [
+          "WTBtnOutlinedBtnDefaultStyle"
+        ],
+        "outlinedBtn_small": [
+          "WTBtnOutlinedBtnSmallStyle"
+        ],
+        "outlinedBtn_circular_big": [
+          "WTBtnOutlinedBtnCircularBigStyle"
+        ],
+        "outlinedBtn_circular_small": [
+          "WTBtnOutlinedBtnCircularSmallStyle"
+        ],
+        "iconBtn_big": [
+          "WTBtnIconBtnBigStyle"
+        ],
+        "iconBtn_small": [
+          "WTBtnIconBtnSmallStyle"
+        ],
+        "textBtn_big": [
+          "WTBtnTextBtnBigStyle"
+        ],
+        "textBtn_small": [
+          "WTBtnTextBtnSmallStyle"
+        ],
+        "toggleBtn_default": [
+          "WTBtnToggleBtnDefaultStyle"
+        ],
+        "toggleBtn_small": [
+          "WTBtnToggleBtnSmallStyle"
+        ]
+      },
+      "sizeHints": {
+        "containedBtn_circular": {
+          "smallMaxHeight": 80
+        },
+        "outlinedBtn_circular": {
+          "smallMaxHeight": 80
+        },
+        "iconBtn": {
+          "smallMaxHeight": 80
+        }
+      }
+    },
+    "WTLoadingBtn": {
+      "simpleName": "WTLoadingButton",
+      "className": "wtcl.lib.widget.WTLoadingButton",
+      "aliases": [
+        "WTLoadingButton",
+        "loading button",
+        "加载按钮",
+        "进度按钮"
+      ],
+      "variantAttr": "wtLoadBtnType",
+      "variantAliases": {
+        "wtLoadBtnBig": [
+          "wtloadbtnbig",
+          "loadingbtnbig"
+        ],
+        "wtLoadBtnSmall": [
+          "wtloadbtnsmall",
+          "loadingbtnsmall"
+        ]
+      },
+      "variantStyleMap": {
+        "wtLoadBtnBig": [
+          "WtLoadingBtnStyleDefault"
+        ],
+        "wtLoadBtnSmall": [
+          "WtLoadingBtnStyleSmall"
+        ]
+      },
+      "sizeHints": {
+        "wtLoadBtn": {
+          "smallMaxHeight": 72
+        }
+      }
+    },
+    "WtSidebarView": {
+      "simpleName": "WTSideBar",
+      "className": "wtcl.lib.widget.WTSideBar",
+      "aliases": [
+        "WTSideBar",
+        "WtSidebarView",
+        "sidebar",
+        "side bar",
+        "侧边栏"
+      ]
+    },
+    "WTChoiceChips": {
+      "className": "wtcl.lib.widget.WTChoiceChips",
+      "aliases": [
+        "WTChoiceChips",
+        "choice chips",
+        "chips",
+        "标签选择",
+        "选择标签"
+      ],
+      "variantAttr": "wtChipsType",
+      "variantAliases": {
+        "contained_fill_big": [
+          "contained chips big",
+          "filled chips big",
+          "大号实心标签"
+        ],
+        "contained_fill_small": [
+          "contained chips small",
+          "filled chips small",
+          "小号实心标签"
+        ],
+        "contained_fill_rounded_big": [
+          "contained rounded chips big",
+          "rounded filled chips big",
+          "大号圆角实心标签"
+        ],
+        "contained_fill_rounded_small": [
+          "contained rounded chips small",
+          "rounded filled chips small",
+          "小号圆角实心标签"
+        ],
+        "outlined_fill_big": [
+          "outlined chips big",
+          "大号描边标签"
+        ],
+        "outlined_fill_small": [
+          "outlined chips small",
+          "小号描边标签"
+        ],
+        "outlined_fill_rounded_big": [
+          "outlined rounded chips big",
+          "大号圆角描边标签"
+        ],
+        "outlined_fill_rounded_small": [
+          "outlined rounded chips small",
+          "小号圆角描边标签"
+        ]
+      },
+      "variantStyleMap": {
+        "contained_fill_big": [
+          "WTChipsContainedBigStyle"
+        ],
+        "contained_fill_small": [
+          "WTChipsContainedSmallStyle"
+        ],
+        "contained_fill_rounded_big": [
+          "WTChipsContainedRoundBigStyle"
+        ],
+        "contained_fill_rounded_small": [
+          "WTChipsContainedRoundSmallStyle"
+        ],
+        "outlined_fill_big": [
+          "WTChipsOutlinedBigStyle"
+        ],
+        "outlined_fill_small": [
+          "WTChipsOutlinedSmallStyle"
+        ],
+        "outlined_fill_rounded_big": [
+          "WTChipsOutLinedRoundBigStyle"
+        ],
+        "outlined_fill_rounded_small": [
+          "WTChipsOutlinedRoundSmallStyle"
+        ]
+      }
+    },
+    "WTNavigationBar": {
+      "className": "wtcl.lib.widget.navi.WTNavigationBar",
+      "aliases": [
+        "WTNavigationBar",
+        "navigation bar",
+        "导航栏"
+      ],
+      "variantAttr": "wtNavigationModel",
+      "variantAliases": {
+        "horizontal": [
+          "horizontal navigation",
+          "一级导航"
+        ],
+        "vertical": [
+          "vertical navigation",
+          "侧边导航"
+        ],
+        "secondHorizontal": [
+          "secondary navigation",
+          "second level navigation",
+          "二级导航"
+        ],
+        "capsule": [
+          "capsule navigation",
+          "胶囊导航"
+        ],
+        "splitHorizontal": [
+          "split navigation",
+          "split horizontal navigation",
+          "分栏导航"
+        ]
+      }
+    },
+    "WTProgressBar": {
+      "className": "wtcl.lib.widget.WTProgressBar",
+      "aliases": [
+        "WTProgressBar",
+        "progress bar",
+        "进度条"
+      ],
+      "variantAttr": "wtProgressBarStyle",
+      "variantAliases": {
+        "style_progress_horizontal": [
+          "horizontal progress",
+          "水平进度条"
+        ],
+        "style_progress_circular": [
+          "circular progress",
+          "圆形进度条"
+        ],
+        "style_level_horizontal_continuous": [
+          "continuous level progress",
+          "连续分级水平进度条"
+        ],
+        "style_level_horizontal_discrete": [
+          "discrete level progress",
+          "离散分级水平进度条"
+        ],
+        "style_level_circular": [
+          "level circular progress",
+          "分级圆形进度条"
+        ]
+      },
+      "variantStyleMap": {
+        "style_progress_horizontal": [
+          "WtProgressBar.ProgressHorizontal"
+        ],
+        "style_progress_circular": [
+          "WtProgressBar.ProgressCircular"
+        ],
+        "style_level_horizontal_continuous": [
+          "WtProgressBar.LevelHorizontalContinuous"
+        ],
+        "style_level_horizontal_discrete": [
+          "WtProgressBar.LevelHorizontalDiscrete"
+        ],
+        "style_level_circular": [
+          "WtProgressBar.LevelCircular"
+        ]
+      }
+    },
+    "WTTitleBar": {
+      "className": "wtcl.lib.widget.WTTitleBar",
+      "aliases": [
+        "WTTitleBar",
+        "title bar",
+        "标题栏"
+      ],
+      "variantAttr": "wtTitleBarMode",
+      "variantAliases": {
+        "first_level": [
+          "primary title bar",
+          "一级标题栏"
+        ],
+        "second_level": [
+          "secondary title bar",
+          "二级标题栏"
+        ]
+      },
+      "variantStyleMap": {
+        "first_level": [
+          "WTTitleBarDefaultStyle"
+        ],
+        "second_level": [
+          "WTTitleBarDefaultStyle"
+        ]
+      }
+    },
+    "WTTopSlideBar": {
+      "className": "wtcl.lib.widget.WTTopSlideBar",
+      "aliases": [
+        "WTTopSlideBar",
+        "top slide bar",
+        "顶部滑栏",
+        "顶部导航"
+      ],
+      "variantAttr": "wtTopSlideBarMode",
+      "variantAliases": {
+        "first_level": [
+          "primary top slide bar",
+          "一级顶部滑栏"
+        ],
+        "second_level": [
+          "secondary top slide bar",
+          "二级顶部滑栏"
+        ]
+      },
+      "variantStyleMap": {
+        "first_level": [
+          "WtTopSlideBarStyleDefault"
+        ],
+        "second_level": [
+          "WtSecondTopSlideBarStyleDefault"
+        ]
+      }
+    },
+    "WTSwitch": {
+      "className": "wtcl.lib.widget.WTSwitch",
+      "aliases": [
+        "WTSwitch",
+        "switch",
+        "开关"
+      ],
+      "variantAttr": "wtLoadingStyle",
+      "variantAliases": {
+        "circular": [
+          "circular loading",
+          "圆形加载"
+        ],
+        "dance": [
+          "dance loading",
+          "跳动加载"
+        ]
+      },
+      "variantStyleMap": {
+        "circular": [
+          "WTSwitchStyleDefault"
+        ]
+      }
+    },
+    "WTDropMenu": {
+      "className": "wtcl.lib.dropmenu.WTDropMenu",
+      "aliases": [
+        "WTDropMenu",
+        "drop menu",
+        "下拉菜单",
+        "WTItemWindow",
+        "item window",
+        "菜单弹窗"
+      ]
+    },
+    "WTToast": {
+      "className": "wtcl.lib.widget.WTToast",
+      "aliases": [
+        "WTToast",
+        "toast",
+        "提示消息"
+      ]
+    }
+  },
+  "manual_widgets": [
+    {
+      "styleableName": "WTRadioButton",
+      "simpleName": "WTRadioButton",
+      "className": "wtcl.lib.widget.WTRadioButton",
+      "aliases": [
+        "radio button",
+        "单选框"
+      ]
+    },
+    {
+      "styleableName": "WTFloatSeekBar",
+      "simpleName": "WTFloatSeekBar",
+      "className": "wtcl.lib.widget.WTFloatSeekBar",
+      "aliases": [
+        "float seek bar",
+        "浮动拖动条",
+        "浮动滑条"
+      ]
+    },
+    {
+      "styleableName": "WTNavigationGroup",
+      "simpleName": "WTNavigationGroup",
+      "className": "wtcl.lib.widget.navi.WTNavigationGroup",
+      "aliases": [
+        "navigation group",
+        "导航组",
+        "组合导航"
+      ]
+    },
+    {
+      "styleableName": "WTEmptyDialog",
+      "simpleName": "WTEmptyDialog",
+      "className": "wtcl.lib.widget.WTEmptyDialog",
+      "renderKind": "runtime_only",
+      "aliases": [
+        "empty dialog",
+        "空弹窗"
+      ]
+    },
+    {
+      "styleableName": "WTPushDialog",
+      "simpleName": "WTPushDialog",
+      "className": "wtcl.lib.widget.WTPushDialog",
+      "renderKind": "runtime_only",
+      "aliases": [
+        "push dialog",
+        "推送弹窗"
+      ]
+    },
+    {
+      "styleableName": "WTDatePickerDialog",
+      "simpleName": "WTDatePickerDialog",
+      "className": "wtcl.lib.datepicker.WTDatePickerDialog",
+      "renderKind": "runtime_only",
+      "aliases": [
+        "date picker dialog",
+        "日期选择弹窗",
+        "日期弹窗"
+      ]
+    },
+    {
+      "styleableName": "WTTimePickerDialog",
+      "simpleName": "WTTimePickerDialog",
+      "className": "wtcl.lib.pickerview.dialog.WTTimePickerDialog",
+      "renderKind": "runtime_only",
+      "aliases": [
+        "time picker dialog",
+        "时间选择弹窗",
+        "时间弹窗"
+      ]
+    },
+    {
+      "styleableName": "WTItemWindow",
+      "simpleName": "WTItemWindow",
+      "className": "wtcl.lib.dropmenu.WTItemWindow",
+      "renderKind": "runtime_only",
+      "hostWidget": "WTDropMenu",
+      "copyFromStyleable": "WTDropMenu",
+      "aliases": [
+        "item window",
+        "菜单窗口",
+        "弹出项窗口"
+      ]
+    },
+    {
+      "styleableName": "WTSnackBar",
+      "simpleName": "WTSnackBar",
+      "className": "wtcl.lib.widget.WTSnackBar",
+      "renderKind": "runtime_only",
+      "aliases": [
+        "snack bar",
+        "消息条"
+      ]
+    },
+    {
+      "styleableName": "WTAutoBubble",
+      "simpleName": "WTAutoBubble",
+      "className": "wtcl.lib.widget.bubble.WTAutoBubble",
+      "renderKind": "runtime_only",
+      "aliases": [
+        "auto bubble",
+        "自动气泡",
+        "悬浮气泡"
+      ]
+    }
+  ]
+}

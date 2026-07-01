@@ -12,3 +12,4 @@ Use this skill as a shared reference dependency for dependency-resolution tests.
 1. Prefer explicit package refs when installing shared skills.
 2. Keep shared guidance small and stable.
 3. Treat this package as test-only, not production guidance.
+4. Version marker: v1.2.1 changes this base package for conflict tests.

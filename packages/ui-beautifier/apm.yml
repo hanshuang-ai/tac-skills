@@ -1,0 +1,12 @@
+name: ui-beautifier
+version: 1.0.0
+description: Claude agent for frontend UI beautification, visual polish, CSS refinement, and micro-interactions.
+author: lcy
+license: UNLICENSED
+targets:
+- claude
+dependencies:
+  apm: []
+  mcp: []
+includes: auto
+scripts: {}

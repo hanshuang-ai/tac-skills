@@ -4,3 +4,7 @@ apm_modules/
 
 .claude-plugin/
 build/
+/.claude/
+/.apm/
+/apm.lock.yaml
+/.DS_Store

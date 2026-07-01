@@ -1,6 +1,6 @@
 name: tac-bugfix
-version: 1.0.0
-description: TAC skill package for tac-bugfix
+version: 0.4.5
+description: "Bug 修复入口，按现象/预期/复现步骤收集最小输入后执行分诊、复现、根因分析、TDD 修复与验证。触发：用户说'修复''bug''崩溃''crash''报错''异常''不生效''闪退''ANR''无响应''白屏''黑屏''不显示''显示异常''错位''溢出''重叠''丢失''消失''卡住''卡顿''失败'等；不负责维护 BUG 文件或经验沉淀文件。"
 author: lcy
 license: UNLICENSED
 targets:

@@ -1,6 +1,6 @@
 name: tac-team-status
-version: 1.0.0
-description: TAC skill package for tac-team-status
+version: 0.4.5
+description: "记录/查询/清理跨工具可见的团队级项目临时状态（模块阶段、接口迁移、发布节奏）。**仅记录满足 4 项硬条件的事实**：跨多人 + 持续 >1 天 + 可过期（≤30 天）+ 现有载体未覆盖。**仅 4 个分类**：模块阶段/接口迁移/发布节奏/其他。**禁止内容**：个人偏好、长期规则、已发生踩坑、单 Feature 进度、可代码/git 查、凭证敏感信息。触发：用户说'标记 X 状态''记一下当前 X''登记冻结期''查看团队状态''清理过期状态'等。所在环节：跨环节，任何阶段都可触发。"
 author: lcy
 license: UNLICENSED
 targets:

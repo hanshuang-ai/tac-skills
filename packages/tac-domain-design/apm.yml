@@ -1,6 +1,6 @@
 name: tac-domain-design
-version: 1.0.0
-description: TAC skill package for tac-domain-design
+version: 0.4.5
+description: "业务与领域设计独立入口：基于 PRD 派生项目级 baseline 的业务与领域设计文档（限界上下文 / 聚合根 / 领域事件 / 业务规则 / Ubiquitous Language / 各 BC 能力清单 / 场景-行为联动表）。触发：用户提供 PRD/需求文档并要求'做业务领域设计''出 DDD 设计''拆限界上下文''聚合根建模''业务规则梳理'等单阶段任务。若用户同时要 HLD/DLD/准出标准 四阶段全套，请改用编排器 `tac-feature-analysis`。"
 author: lcy
 license: UNLICENSED
 targets:

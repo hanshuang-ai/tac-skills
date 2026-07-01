@@ -1,6 +1,6 @@
 name: tac-hld
-version: 1.0.0
-description: TAC skill package for tac-hld
+version: 0.4.5
+description: "软件概要设计独立入口：基于业务与领域设计 baseline 派生概要设计文档（技术栈选型 / 架构风格 / 模块清单 / 模块间依赖 / 外部依赖 / 跨切面策略 / NFR 达成路径）。触发：用户提供已落盘的业务与领域设计 baseline 并要求'出概要设计''出 HLD''做架构设计''拆模块''选技术栈'等单阶段任务。若用户同时要业务领域/DLD/准出标准 四阶段全套，请改用编排器 `tac-feature-analysis`。"
 author: lcy
 license: UNLICENSED
 targets:

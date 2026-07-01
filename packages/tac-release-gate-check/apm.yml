@@ -1,6 +1,6 @@
 name: tac-release-gate-check
-version: 1.0.0
-description: TAC skill package for tac-release-gate-check
+version: 0.4.5
+description: "软件准出审核：当用户要求在编码完成、发版前、验收前，依据已有准出标准和代码变更、构建结果、测试结果、CI、人工验收记录判断准出/有条件准出/不准出时使用。"
 author: lcy
 license: UNLICENSED
 targets:

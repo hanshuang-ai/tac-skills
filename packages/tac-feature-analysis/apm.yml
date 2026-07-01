@@ -1,6 +1,6 @@
 name: tac-feature-analysis
-version: 1.0.0
-description: TAC skill package for tac-feature-analysis
+version: 0.4.5
+description: "PRD/需求文档分析入口，按四阶段派生项目级 baseline 设计文档：业务与领域设计 → 概要设计 → 详细设计 → 准出标准设计。触发：用户提供 PRD/需求文档并要求'做设计''出 HLD''出 DLD''出概要设计''出详细设计''出验收标准''做整体设计''PRD 转设计''PRD 分析'等。所在环节：① 需求输入（PRD 维度）。"
 author: lcy
 license: UNLICENSED
 targets:

@@ -1,6 +1,6 @@
 name: tac-commit-review
-version: 1.0.0
-description: TAC skill package for tac-commit-review
+version: 0.4.5
+description: "提交前自检与送审编排：校验变更范围、提交级质量门禁、暂存内容、八字段 commit message、commit 与 Gerrit refs/for 送审。当用户说'提交代码''帮我提交''准备 commit''写提交信息''commit message''八字段''git add''git commit''push''送审''Gerrit''refs/for''提交前检查'时触发。"
 author: lcy
 license: UNLICENSED
 targets:

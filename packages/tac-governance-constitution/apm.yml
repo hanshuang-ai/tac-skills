@@ -1,6 +1,6 @@
 name: tac-governance-constitution
-version: 1.0.0
-description: TAC skill package for tac-governance-constitution
+version: 0.4.5
+description: "为项目配置主宪章与专项宪章，建立'1 主宪章 + N 专项宪章'的 AI 编程治理结构"
 author: lcy
 license: UNLICENSED
 targets:

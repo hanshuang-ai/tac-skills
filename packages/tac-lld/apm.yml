@@ -1,6 +1,6 @@
 name: tac-lld
-version: 1.0.0
-description: TAC skill package for tac-lld
+version: 0.4.5
+description: "软件详细设计独立入口：基于概要设计 baseline 派生详细设计文档（模块详述 / 对外接口契约 / 状态机 / 时序图 / 数据模型 / 并发与一致性 / 可观测性埋点）。触发：用户提供已落盘的概要设计 baseline 并要求'出详细设计''出 LLD''做接口契约''画状态机''出时序图''出数据模型'等单阶段任务。若用户同时要业务领域/HLD/准出标准 四阶段全套，请改用编排器 `tac-feature-analysis`。"
 author: lcy
 license: UNLICENSED
 targets:

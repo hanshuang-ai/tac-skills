@@ -1,6 +1,6 @@
-name: tac-testcase-plan
+name: spec-writer
 version: 0.4.5
-description: ">"
+description: "TAC spec-writer agent — TODO 填充职责说明。"
 author: lcy
 license: UNLICENSED
 targets:

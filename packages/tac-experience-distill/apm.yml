@@ -1,6 +1,6 @@
 name: tac-experience-distill
-version: 1.0.0
-description: TAC skill package for tac-experience-distill
+version: 0.4.5
+description: "引导经验沉淀到正确载体（Issues/Memory/宪章），在 Feature 完成或踩坑后触发。所在环节：⑧ 经验沉淀。"
 author: lcy
 license: UNLICENSED
 targets:

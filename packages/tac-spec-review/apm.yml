@@ -1,6 +1,6 @@
 name: tac-spec-review
-version: 1.0.0
-description: TAC skill package for tac-spec-review
+version: 0.4.5
+description: "Speckit 流程的 Review Gate 执行器，按项目专项规范审查 spec.md / plan.md 并输出二值闸门结论。触发：Speckit 流程中 Review Gate 节点。所在环节：② 规格化 / ③ 技术设计。"
 author: lcy
 license: UNLICENSED
 targets:

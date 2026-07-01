@@ -1,6 +1,6 @@
 name: tac-release-gate-generate
-version: 1.0.0
-description: TAC skill package for tac-release-gate-generate
+version: 0.4.5
+description: "软件准出标准生成：当用户要求基于业务领域设计、概要设计、详细设计、需求文档、宪章、实现代码或测试策略生成项目/系统级、版本发布级、需求/功能级三级准出标准时使用。"
 author: lcy
 license: UNLICENSED
 targets:

@@ -1,6 +1,6 @@
 name: tac-ui-mastergo-test
-version: 1.0.0
-description: TAC skill package for tac-ui-mastergo-test
+version: 0.4.5
+description: ">"
 author: lcy
 license: UNLICENSED
 targets:

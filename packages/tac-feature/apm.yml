@@ -1,6 +1,6 @@
 name: tac-feature
-version: 1.0.0
-description: TAC skill package for tac-feature
+version: 0.4.5
+description: "Feature 开发入口，强制按七字段需求模板收集结构化输入（含验收标准字段质量校验）后启动 Speckit 流程。触发：用户说'新增''添加''实现''开发''创建''修改行为''重构''优化''调整''对齐''替换''迁移''接入''对接''改为''改成''换成''支持''升级''适配'等。所在环节：① 需求输入。"
 author: lcy
 license: UNLICENSED
 targets:

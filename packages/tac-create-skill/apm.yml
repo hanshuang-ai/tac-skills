@@ -1,6 +1,6 @@
 name: tac-create-skill
-version: 1.0.0
-description: TAC skill package for tac-create-skill
+version: 0.4.5
+description: "引导用户在 15-30 分钟内创建一个可用的 SKILL.md。当用户说'我想写 skill'/'帮我新建 skill'/'把这段流程封装成 skill'/'做个能自动 X 的 skill'/'怎么做 skill'时触发；走四步流程（场景定义 → frontmatter 设计 → 正文五要素 → 自查清单），产出可在任何兼容 Agent Skills 标准的环境下使用的 skill 目录。"
 author: lcy
 license: UNLICENSED
 targets:

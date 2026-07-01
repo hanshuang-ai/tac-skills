@@ -1,6 +1,6 @@
 name: tac-maestro-case
-version: 1.0.0
-description: TAC skill package for tac-maestro-case
+version: 0.4.5
+description: ">"
 author: lcy
 license: UNLICENSED
 targets:
